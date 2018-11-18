@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo");
+
+:root {
+  --logo-opacity: 0.8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#abaquilLogo {
+  fill: #eee;
+}
+#abaquilLogoCore {
+  animation: fadein ease-in 2s;
+  -webkit-animation: fadein ease-in 2s;
+  -moz-animation: fadein ease-in 2s;
+  -ms-animation: fadein ease-in 2s;
+}
+#abaquilLogoShell {
+  animation: fadeinDelay ease-in 2.5s;
+  -webkit-animation: fadeinDelay ease-in 2.5s;
+  -moz-animation: fadeinDelay ease-in 2.5s;
+  -ms-animation: fadeinDelay ease-in 2.5s;
+}
+#logoSubtitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 25px;
+  padding-left: 25px;
+  margin: 16px 0px 8px;
+  color: #eee;
+  animation: fadeinLateDelay ease-in 3.5s;
+  -webkit-animation: fadeinLateDelay ease-in 3.5s;
+  -moz-animation: fadeinLateDelay ease-in 3.5s;
+  -ms-animation: fadeinLateDelay ease-in 3.5s;
+}
+
+.titleContent {
+  background-color: #111;
+  width: 100vw;
+  height: 100vh;
+}
+.logo {
+  width: 80vw;
+  max-width: 60vh;
+}
+.footer {
+  background-color: #333;
+  color: #999;
+  text-align: center;
+  width: 100%;
+  font-family: "Archivo", sans-sans-serif;
+  font-size: 18px;
+  padding: 8px 0px;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+.flex {
+  flex: 1;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeinDelay {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeinDelay {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeinDelay {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeinDelay {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeinLateDelay {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeinLateDelay {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeinLateDelay {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeinLateDelay {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
